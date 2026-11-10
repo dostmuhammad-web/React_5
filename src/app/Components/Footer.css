@@ -1,0 +1,30 @@
+.Cart__footer{
+display: flex;
+color: rgb(0, 125, 234);
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+height: 40vh;
+background-color: black;
+gap: 35px;
+}
+
+.button12{
+height: 20px;
+
+}
+
+.Cart__footer{
+
+  }
+
+.Cart_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+

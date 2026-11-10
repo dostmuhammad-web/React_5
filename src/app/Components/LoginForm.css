@@ -1,0 +1,168 @@
+.loginform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.loginform__title {
+  font-family: Lato;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 59.88px;
+  line-height: 91.69px;
+  letter-spacing: 0%;
+  color: black;
+}
+
+.loginform__subtitle {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 29.94px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  color: #00000099;
+}
+.loginform__right form,
+.loginform__right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.loginform__right form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginform__right form label span {
+  font-family: Lato;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 23.79px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+
+.loginform__right input {
+  width: 507px;
+  height: 78px;
+  border-radius: 14.87px;
+  border: none;
+  background: #0000000d;
+  font-family: Lato;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 23.79px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  padding-left: 50px;
+}
+
+.loginform__right form button {
+  height: 68px;
+  border-radius: 14.87px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: Lato;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 23.79px;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+.loginform__right form button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.loginform__right button {
+  border-radius: 14.87px;
+  border-width: 1.49px;
+  padding-top: 25.28px;
+  padding-right: 72.85px;
+  padding-bottom: 25.28px;
+  padding-left: 72.85px;
+  font-family: Lato;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 23.79px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.5s;
+}
+
+.btn__google {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn__facebook {
+  background: #1877f2;
+  color: white;
+  border: none;
+}
+
+.loginform__right button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.home__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.home__logo {
+  width: 200px;
+  height: 200px;
+}
+.home__header input {
+  width: 500px;
+  height: 60px;
+  border-radius: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+  padding-left: 20px;
+}
+.home__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.home__categories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.p{
+  
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+  background-color: #4942420d;
+}
+
+.home__categories p:hover {
+  background-color: black;
+  color: white;
+}
